@@ -1,0 +1,43 @@
+html {
+	height: 100%;
+}
+body {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0px;
+}
+.addres_form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+}
+.address {
+	width: 500px;
+	height: 30px;
+	padding: 0px 10px;
+	display: block;
+}
+.support {
+    display: none;
+    position: absolute;
+    top: 34px;
+    border: 1px solid #ccc;
+    width: 500px;
+    span {
+    	font-size: 14px;
+    	color: #333;
+    	padding: 0px 10px;
+    }
+}
+.suggest_item {
+	padding: 0px 10px;
+	cursor: pointer;
+	&:hover {
+		background-color: #eff8f8;
+	}
+}
